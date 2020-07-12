@@ -97,7 +97,7 @@ let resumeData = {
       //   "imgurl":"images/portfolio/phone.jpg"
       // }
     ],
-    "Quotes":[
+    "quotes":[
       {
         "description":"Good enough is never good enough, when extraordinary is expected and is the standard",
         "name":"Ty Howard"

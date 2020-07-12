@@ -12,7 +12,7 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Quote Section
+   g. quotes Section
    h. Contact Section
    i. Footer
 
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/background-header.jpg) no-repeat top center;
+   background: #161415 url(/images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -635,11 +635,11 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Quote
+/* g. quotes
 /* ------------------------------------------------------------------ */
 
-#Quotes {
-   background: #1F1F1F url(../images/Quotes-bg.jpg) no-repeat center center;
+#quotes {
+   background: #1F1F1F url(/images/quotes-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -649,19 +649,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#Quotes .text-container {
+#quotes .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#Quotes h1 {
+#quotes h1 {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#Quotes h1 span { display: none; }
-#Quotes .header-col { padding-top: 9px; }
-#Quotes .header-col h1:before {
+#quotes h1 span { display: none; }
+#quotes .header-col { padding-top: 9px; }
+#quotes .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -672,31 +672,31 @@ call-to-action .button {
    color: #fff;
 }
 
-/*	BlockQuotes */
-#Quotes blockquote {
+/*	Blockquotes */
+#quotes blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#Quotes blockquote:before { content: none; }
-#Quotes blockquote p {
+#quotes blockquote:before { content: none; }
+#quotes blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#Quotes blockquote cite {
+#quotes blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#Quotes blockquote cite:before { content: "\2014 \0020"; }
-#Quotes blockquote cite a,
-#Quotes blockquote cite a:visited { color: #8B9798; border: none }
+#quotes blockquote cite:before { content: "\2014 \0020"; }
+#quotes blockquote cite a,
+#quotes blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */

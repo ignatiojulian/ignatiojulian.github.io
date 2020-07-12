@@ -3,17 +3,17 @@ export default class Quotes extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="Quotes">
+      <section id="quotes">
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">
-              <h1><span>Quote</span></h1>
+              <h1><span>Quotes</span></h1>
             </div>
             <div className="ten columns flex-container">
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.Quotes && resumeData.Quotes.map((item)=>{
+                    resumeData.quotes && resumeData.quotes.map((item)=>{
                       return(
                         <li>
                           <blockquote>
