@@ -9,6 +9,7 @@ React-Portfolio is being sponsored by the following tool; please help to support
 A simple SPA Portfolio template for developer/designers built with React.
 
 ## Preview
-![Preview](https://ibb.co/Svn5WmQ)
+![picture](public/images/gambar.png)
+
 
 
