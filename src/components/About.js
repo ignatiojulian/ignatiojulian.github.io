@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import AOS from 'aos';
+
+
 export default class About extends Component {
   render() {
+   AOS.init({
+      // initialise with other settings
+      duration : 1000
+    });
     let resumeData = this.props.resumeData;
     return (
-      <section id="about">
+      <section id="about" data-aos="fade-up">
          <div className="row">
 
             <div className="three columns">

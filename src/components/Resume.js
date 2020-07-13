@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+import AOS from 'aos';
+
 export default  class Resume extends Component {
   render() {
+    AOS.init({
+      // initialise with other settings
+      duration : 1000
+    });
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
 
-         <div className="row education">
+         <div className="row education" data-aos="fade-right">
 
             <div className="three columns header-col">
                <h1><span>Education</span></h1>
@@ -31,7 +37,7 @@ export default  class Resume extends Component {
               }
             </div>
          </div>
-        <div className="row work">
+        <div className="row work" data-aos="fade-left">
             <div className="three columns header-col">
                <h1><span>Work</span></h1>
             </div>
@@ -60,7 +66,7 @@ export default  class Resume extends Component {
          </div>
 
 
-         <div className="row skill">
+         <div className="row skill" data-aos="fade-right">
 
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>

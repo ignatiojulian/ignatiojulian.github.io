@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import AOS from 'aos';
+
 export default class Porfolio extends Component {
   render() {
+    AOS.init({
+      // initialise with other settings
+      duration : 1000
+    });
     let resumeData = this.props.resumeData;
     return (
-      <section id="portfolio">
+      <section id="portfolio" data-aos="fade-down">
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
