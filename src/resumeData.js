@@ -3,8 +3,9 @@ let resumeData = {
     "name": "Ignatio Julian",
     "role": "Software Engineer",
     "linkedinId":"Ignatio Julian",
+    "whatsapp": "https://api.whatsapp.com/send?phone=6285953936396",
     "skypeid": "Your skypeid",
-    "roleDescription": " I like new things, more interested in the frontend development and like new technology. like music and coffee time when free time",
+    "roleDescription": " I like new things, more interested in Web & Mobile Development especially in frontend development and like new technology. like music and coffee time when free time",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,20 +23,20 @@ let resumeData = {
           "className":"fa fa-skype"
         }
       ],
-    "aboutme":"I am currently a senior at the Duta Wacana Christian University in Yogyakarta and am pursuing a computer degree. I am currently exploring mobile frameworks such as Google Flutter and web frameworks such as ember.js and react.js and am also interested in machine learning. I dedicate myself to the development of technology for the future",
+    "aboutme":"Graduated at Duta Wacana Christian University in Yogyakarta specialization in Software Engineer. I am currently exploring mobile frameworks such as Google Flutter and web frameworks such as ember.js and react.js and am also interested in machine learning. I dedicate myself to the development of technology for the future",
     "address":"Yogyakarta, Indonesia",
     "website":"ignatio.julian@ti.ukdw.ac.id",
     "education":[
       {
         "UniversityName":"Duta Wacana Christian University Yogyakarta",
-        "specialization":"College Student",
+        "specialization":"Informatics Engineering",
         "MonthOfPassing":"Dec",
         "YearOfPassing":"2020",
         "Achievements":"Himpunan Mahasiswa Teknik Informatika - 2017"
       },
       {
         "UniversityName":"Seminary St. Peter Canisius Mertoyudan",
-        "specialization":"Student",
+        "specialization":"",
         "MonthOfPassing":"Jul",
         "YearOfPassing":"2016",
         "Achievements":"Canisii Seminarium Orchestra, Sales & Marketing of Aquila Magazine"

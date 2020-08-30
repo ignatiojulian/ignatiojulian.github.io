@@ -1,4 +1,14 @@
 import React, { Component } from 'react';
+
+
+class WhatsappAPI extends React.Component {
+  render() {
+    return (
+      <a href={this.props.src} target="_blank">{this.props.children}</a>
+    )
+  }
+}
+
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -16,6 +26,11 @@ export default class ContactUs extends Component {
               <div className="widget">
                 <h4>Linked in :
                   {resumeData.linkedinId}
+                </h4>
+                <h4>Whatsapp : 
+                  <WhatsappAPI src={resumeData.whatsapp}>
+                     +62859-5393-6396
+                  </WhatsappAPI>
                 </h4>
               </div>
             </aside>
