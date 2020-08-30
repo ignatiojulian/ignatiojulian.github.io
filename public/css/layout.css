@@ -437,13 +437,13 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+.portfolio-item a {
    display: block;
    cursor: pointer;
 }
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+.portfolio-item .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -461,7 +461,7 @@ ul#nav li.current a { color: #F06000; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
-.portfolio-item .item-wrap .link-icon {
+.portfolio-item .link-icon {
    display: block;
    color: #fff;
    height: 30px;
@@ -485,7 +485,7 @@ ul#nav li.current a { color: #F06000; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+.portfolio-item img {
    vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
@@ -1004,3 +1004,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+#downloadCV {
+   border: 10px solid white;
+}

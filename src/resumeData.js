@@ -47,17 +47,24 @@ let resumeData = {
         "specialization":"Mobile Application Developer",
         "MonthOfLeaving":"Aug 2019 - Mar",
         "YearOfLeaving":"2019",
-        "Achievements":"ZeusX Mobile Application"
+        "Achievements":"ZeusX Mobile Application, BFI Finance - Admin"
       },
       {
-        "CompanyName":"",
+        
         "specialization":"Web Application Developer",
-        "MonthOfLeaving":"Mar 2020 - ",
+        "MonthOfLeaving":"Mar 2020 - Sep",
+        "YearOfLeaving":"2020",
+        "Achievements":"RedWhite E-Commmerce"
+      },
+      {
+        "CompanyName":"Freelance Developer",
+        "specialization":"Web & Mobile Developer, Data Science",
+        "MonthOfLeaving":"Jul 2019 - ",
         "YearOfLeaving":"Present",
-        "Achievements":""
+        "Achievements":"Stock Prediction"
       }
     ],
-    "skillsDescription":"Here are my skills that I can do",
+    "skillsDescription":"Here are my skills that I can do based on project",
     "skills":[
       {
         "skillname":"Mobile Application Development",
@@ -74,28 +81,44 @@ let resumeData = {
       {
         "skillname":"PHP"
       },
+      {
+        "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Emberjs"
+      },
     ],
     "portfolio":[
       {
-        "name":"Diet Identification",
-        "description":"Web App",
-        "imgurl":"images/portfolio/Picture1.png"
+        "name":"Thesis - Expert System Diet Identification",
+        "description":"Web Application",
+        "imgurl":"images/portfolio/DietDetection_Thesis.png",
+        "urlproject": "http://www.malesdiets.live/"
       },
       {
-        "name":"E-Commerce for Gamers",
-        "description":"Mobile App",
-        "imgurl":"images/portfolio/Picture2.png"
+        "name":"One Win Laundry - Landing Page",
+        "description":"Web Application (Under Progress)",  
+        "imgurl":"images/portfolio/OneWinLaundry_landingpage.png",
+        "urlproject": ""
       },
-      // {
-      //   "name":"project3",
-      //   "description":"mobileapp",  
-      //   "imgurl":"images/portfolio/project2.png"
-      // },
-      // {
-      //   "name":"project4",
-      //   "description":"mobileapp",
-      //   "imgurl":"images/portfolio/phone.jpg"
-      // }
+      {
+        "name":"ZeusX - Ecommerce for Gamers",
+        "description":"Mobile Application (Android & iOS)",
+        "imgurl":"images/portfolio/ZeusXW3Ocean.png",
+        "urlproject": "https://www.zeusx.com/"
+      },
+      {
+        "name":"RedWhite - Ecommerce",
+        "description":"Web Application",
+        "imgurl":"images/portfolio/RedWhiteW3Ocean_ecommerce.png",
+        "urlproject": "https://redwhite.w3o.io/"
+      },
+      {
+        "name":"BFI Finance - Admin",
+        "description":"Web Application",  
+        "imgurl":"images/portfolio/BFIAdminW3Ocean.png",
+        "urlproject": "https://savoir-lms-web.w3o.io/#/"
+      },
     ],
     "quotes":[
       {
@@ -106,7 +129,8 @@ let resumeData = {
         "description":"If you have a dream, chase it no matter what it takes.",
         "name":"James Harden"
       }
-    ]
+    ],
+    "CVpath": "cv/cv.pdf"
   }
   
   export default resumeData
