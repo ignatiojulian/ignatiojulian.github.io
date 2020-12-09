@@ -1,5 +1,5 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
+    "imagebaseurl":"ignatiojulian.me",
     "name": "Ignatio Julian",
     "role": "Software Engineer",
     "linkedinId":"Ignatio Julian",
@@ -23,21 +23,21 @@ let resumeData = {
           "className":"fa fa-skype"
         }
       ],
-    "aboutme":"Graduated at Duta Wacana Christian University in Yogyakarta specialization in Software Engineer. I am currently exploring mobile frameworks such as Google Flutter and web frameworks such as ember.js and react.js and am also interested in machine learning. I dedicate myself to the development of technology for the future",
-    "address":"Yogyakarta, Indonesia",
+    "aboutme":"Graduated at Duta Wacana Christian University in Yogyakarta specialization in Software Engineer. I am currently exploring mobile frameworks such as Google Flutter and Swift and web frameworks such as react.js and am also interested in machine learning. I dedicate myself to the development of technology for the future",
+    "address":"Tangerang, Banten, Indonesia",
     "website":"ignatio.julian@ti.ukdw.ac.id",
     "education":[
       {
-        "UniversityName":"Duta Wacana Christian University Yogyakarta",
+        "UniversityName":"Duta Wacana Christian University, Yogyakarta",
         "specialization":"Informatics Engineering",
-        "MonthOfPassing":"Dec",
+        "MonthOfPassing":"Graduated: Sep",
         "YearOfPassing":"2020",
         "Achievements":"Himpunan Mahasiswa Teknik Informatika - 2017"
       },
       {
         "UniversityName":"Seminary St. Peter Canisius Mertoyudan",
         "specialization":"",
-        "MonthOfPassing":"Jul",
+        "MonthOfPassing":"Graduated: Jul",
         "YearOfPassing":"2016",
         "Achievements":"Canisii Seminarium Orchestra, Sales & Marketing of Aquila Magazine"
       }
@@ -63,6 +63,13 @@ let resumeData = {
         "MonthOfLeaving":"Jul 2019 - ",
         "YearOfLeaving":"Present",
         "Achievements":"Stock Prediction"
+      },
+      {
+        "CompanyName":"PT Multipolar Technology Tbk",
+        "specialization":"Application Developer (iOS Developer)",
+        "MonthOfLeaving":"Nov 2020 - ",
+        "YearOfLeaving":"Present",
+        "Achievements":"Bank Bumi Arta"
       }
     ],
     "skillsDescription":"Here are my skills that I can do based on project",
@@ -78,6 +85,9 @@ let resumeData = {
       },
       {
         "skillname":"Flutter"
+      },
+      {
+        "skillname":"Swift"
       },
       {
         "skillname":"PHP"
@@ -119,6 +129,12 @@ let resumeData = {
         "description":"Web Application",  
         "imgurl":"images/portfolio/BFIAdminW3Ocean.png",
         "urlproject": "https://savoir-lms-web.w3o.io/#/"
+      },
+      {
+        "name":"Bank Bumi Arta",
+        "description":"Mobile Application - iOS Apps",  
+        "imgurl":"images/portfolio/bba.png",
+        "urlproject": "https://apps.apple.com/id/app/bba-mobile/id1485871179"
       },
     ],
     "quotes":[
